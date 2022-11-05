@@ -191,9 +191,11 @@ dependencies {
 <a id="browserstack"></a>
 #### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
 
-<p align="center"> 
-<img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450px" height="450px"  alt="video">   
-</p>
+<div align="center">
+<img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="450"  alt="video">  
+</div>
+
+
 
 <a id="notifications"></a>
 #### <img alt="Telegram" height="50" src="readme_files/video/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2.gif" width="50"/>Telegram</a>

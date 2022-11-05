@@ -12,7 +12,7 @@
 * <a href="#screenshot">Скриншоты и видео</a>
   + <a href="#jenkins">Jenkins</a>
   + <a href="#allure">Allure Report</a>
-  + <a href="#selenoid">browserstack</a>
+  + <a href="#browserstack">browserstack</a>
   + <a href="#notifications">Telegram</a>
 
 

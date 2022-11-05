@@ -189,11 +189,13 @@ dependencies {
 </table>
 
 <a id="browserstack"></a>
-#### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
 
 <div align="center">
 <img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="450"  alt="video">  
 </div>
+#### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
+
+
 
 
 

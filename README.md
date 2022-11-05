@@ -192,9 +192,7 @@ dependencies {
 #### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
 
 <div align="center">
-<video src="readme_files/video/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2.mp4" 
-controls="controls" style="max-width: 730px;">
-</video>
+    <iframe width="854" height="480" src="readme_files/video/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2.mp4" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a id="notifications"></a>

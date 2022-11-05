@@ -192,7 +192,7 @@ dependencies {
 #### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
 
 <div align="center">
-<iframe class="attachment__iframe" frameborder="0" src="data/attachments/59ac4530edad2185.html"></iframe>
+
 </div>
 
 <a id="notifications"></a>

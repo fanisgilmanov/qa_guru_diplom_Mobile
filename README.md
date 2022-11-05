@@ -191,15 +191,12 @@ dependencies {
 <a id="browserstack"></a>
 #### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
 
-<div align="center">
-   <video src="readme_files/video/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2.mp4" 
-controls="controls" style="max-width: 730px;" poster="https://github.com/grad0ff/citilink-app-tests/blob/master/readme_files/technologies/browserstack.svg">
-Видео недоступно.
-</video>
-</div>
+<p align="center"> 
+<img title="Browserstack Video" src="images/BrowserStackVideoShort.gif" width="450" height="450"  alt="video">   
+</p>
 
 <a id="notifications"></a>
-#### <img alt="Telegram" height="50" src="readme_files/technologies/telegram.svg" width="50"/>Telegram</a>
+#### <img alt="Telegram" height="50" src="readme_files/video/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2.gif" width="50"/>Telegram</a>
 
 > *Предоставление оперативной информации о результатах прогона автотестов*
 

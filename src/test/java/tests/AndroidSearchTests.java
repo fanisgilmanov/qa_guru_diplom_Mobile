@@ -43,19 +43,6 @@ public class AndroidSearchTests extends TestBase {
                 $(AppiumBy.id("org.wikipedia.alpha:id/search_close_btn")).click());
     }
 
-    @Test
-    @DisplayName("Mobile Wikipedia search test")
-    void searchTest() {
-        step("Type search", () -> {
-            $(AppiumBy.accessibilityId("Search Wikipedia")).click();
-            $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text"))
-                    .sendKeys("BrowserStack");
-        });
-        step("Verify content found", () ->
-                $$(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_title"))
-                        .shouldHave(sizeGreaterThan(0)));
-
-    }
 
     @Test
     @DisplayName("Проверка поиска по первой букве D")

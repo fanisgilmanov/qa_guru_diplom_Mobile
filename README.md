@@ -10,10 +10,10 @@
     + <a href="#intelij">InteliJ IDEA, Java, JUnit 5, Selenide, Rest Assured</a>
     + <a href="#gradle">Gradle</a>
 * <a href="#screenshot">Скриншоты и видео</a>
-  + <a href="#selenoid">Selenoid</a>
   + <a href="#jenkins">Jenkins</a>
-  + <a href="#allure">Allure TestOps, Allure Report</a>
-  + <a href="#notifications">Telegram, Email</a>
+  + <a href="#allure">Allure Report</a>
+  + <a href="#selenoid">browserstack</a>
+  + <a href="#notifications">Telegram</a>
 
 
 
@@ -192,7 +192,7 @@ dependencies {
 #### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
 
 <div align="center">
-<video width="100%" height="100%" controls="" autoplay=""><source src="https://app-automate.browserstack.com/sessions/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2/video?token=RngrNWFDQTVPMHlyUkQzZFV0RXk3ckZrUVZIR0UzSHF0UzFveldWcEV2clF3eVhXRkRlMnFwbTd5V2JvWCtYQ2FkR1RPMWl2aVhlNTVOQVhOV3ZqdEE9PS0tRUlnQ2tNUERCMGVtdGpWKzV5WERTdz09--8125e297b53e95abad4069ad693a472cee6d053c&amp;source=rest_api&amp;diff=1.844808273" type="video/mp4"></video>
+<iframe class="attachment__iframe" frameborder="0" src="data/attachments/59ac4530edad2185.html"></iframe>
 </div>
 
 <a id="notifications"></a>

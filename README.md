@@ -192,7 +192,10 @@ dependencies {
 #### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
 
 <div align="center">
-    <iframe width="854" height="480" src="readme_files/video/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2.mp4" frameborder="0" allowfullscreen></iframe>
+   <video src="readme_files/video/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2.mp4" 
+controls="controls" style="max-width: 730px;" poster="https://github.com/grad0ff/citilink-app-tests/blob/master/readme_files/technologies/browserstack.svg">
+Видео недоступно.
+</video>
 </div>
 
 <a id="notifications"></a>

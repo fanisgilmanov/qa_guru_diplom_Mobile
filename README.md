@@ -89,20 +89,18 @@ public class AndroidSearchTests extends TestBase {
             $(AppiumBy.id("org.wikipedia.alpha:id/menu_overflow_button")).click();
             $(AppiumBy.id("org.wikipedia.alpha:id/explore_overflow_settings")).click();
         });
-        step("Нажмите на языковые настройки Википедии.", () -> {
-            $(AppiumBy.id("android:id/title")).click();
-        });
-        step("Поиск французского языка", () -> {
-            $(AppiumBy.id("org.wikipedia.alpha:id/preference_languages_filter")).sendKeys("French");
-        });
-        step("Установка французского языка", () -> {
-            $(AppiumBy.id("org.wikipedia.alpha:id/language_subtitle")).click();
-        });
-        step("Проверка, что выбранн язык в настройках французский", () -> {
-            $(AppiumBy.id("android:id/summary")).shouldHave(exactText("Français"));
-        });
 
+        step("Нажмите на языковые настройки Википедии.", () ->
+                $(AppiumBy.id("android:id/title")).click());
 
+        step("Поиск французского языка", () ->
+                $(AppiumBy.id("org.wikipedia.alpha:id/preference_languages_filter")).sendKeys("French"));
+
+        step("Установка французского языка", () ->
+                $(AppiumBy.id("org.wikipedia.alpha:id/language_subtitle")).click());
+
+        step("Проверка, что выбранн язык в настройках французский", () ->
+                $(AppiumBy.id("android:id/summary")).shouldHave(exactText("Français")));
     }
 }    
 ```

@@ -29,7 +29,6 @@
 <a href="https://www.browserstack.co"><img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/></a>
 <a href="https://gradle.org/"><img alt="Gradle" height="50" src="readme_files/technologies/gradle.svg" width="50"/></a>
 <a href="https://www.jenkins.io/"><img alt="Jenkins" height="50" src="readme_files/technologies/jenkins.svg" width="50"/></a>
-<a href="https://qameta.io/"><img alt="Allure TestOps" height="50" src="readme_files/technologies/allure_testops.svg" width="50"/></a>
 <a href="https://github.com/allure-framework/"><img alt="Allure" height="50" src="readme_files/technologies/allure.svg" width="50"/></a>
 <a href="https://github.com/"><img alt="GitHub" height="50" src="readme_files/technologies/github.svg" width="50"/></a>
 </div>
@@ -90,20 +89,18 @@ public class AndroidSearchTests extends TestBase {
             $(AppiumBy.id("org.wikipedia.alpha:id/menu_overflow_button")).click();
             $(AppiumBy.id("org.wikipedia.alpha:id/explore_overflow_settings")).click();
         });
-        step("Нажмите на языковые настройки Википедии.", () -> {
-            $(AppiumBy.id("android:id/title")).click();
-        });
-        step("Поиск французского языка", () -> {
-            $(AppiumBy.id("org.wikipedia.alpha:id/preference_languages_filter")).sendKeys("French");
-        });
-        step("Установка французского языка", () -> {
-            $(AppiumBy.id("org.wikipedia.alpha:id/language_subtitle")).click();
-        });
-        step("Проверка, что выбранн язык в настройках французский", () -> {
-            $(AppiumBy.id("android:id/summary")).shouldHave(exactText("Français"));
-        });
 
+        step("Нажмите на языковые настройки Википедии.", () ->
+                $(AppiumBy.id("android:id/title")).click());
 
+        step("Поиск французского языка", () ->
+                $(AppiumBy.id("org.wikipedia.alpha:id/preference_languages_filter")).sendKeys("French"));
+
+        step("Установка французского языка", () ->
+                $(AppiumBy.id("org.wikipedia.alpha:id/language_subtitle")).click());
+
+        step("Проверка, что выбранн язык в настройках французский", () ->
+                $(AppiumBy.id("android:id/summary")).shouldHave(exactText("Français")));
     }
 }    
 ```
@@ -189,14 +186,15 @@ dependencies {
 </table>
 
 <a id="browserstack"></a>
-#### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
 
+
+#### <img alt="Browserstack" height="50" src="readme_files/technologies/browserstack.svg" width="50"/>Browserstack</a>
 <div align="center">
-   <video src="readme_files/video/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2.mp4" 
-controls="controls" style="max-width: 730px;" poster="https://github.com/grad0ff/citilink-app-tests/blob/master/readme_files/technologies/browserstack.svg">
-Видео недоступно.
-</video>
+<img title="Browserstack Video" src="readme_files/video/1837e9126a9d69798f3ef89887d7a0a4e7bac6f2.gif" width="450" height="450"  alt="video">  
 </div>
+
+
+
 
 <a id="notifications"></a>
 #### <img alt="Telegram" height="50" src="readme_files/technologies/telegram.svg" width="50"/>Telegram</a>

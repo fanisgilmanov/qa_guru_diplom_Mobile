@@ -18,6 +18,7 @@ import static io.qameta.allure.Allure.step;
 
 public class TestBase {
     static String deviceHost = System.getProperty("deviceHost", "browserstack");
+
     @BeforeAll
     public static void setUp() {
         switch (deviceHost) {
@@ -26,10 +27,11 @@ public class TestBase {
                 break;
             case ("real"):
                 Configuration.browser = RealMobileDriver.class.getName();
+                break;
             default:
                 Configuration.browser = EmulationMobileDriver.class.getName();
+                break;
         }
-
         Configuration.browserSize = null;
     }
 

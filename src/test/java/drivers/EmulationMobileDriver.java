@@ -1,4 +1,5 @@
 package drivers;
+
 import com.codeborne.selenide.WebDriverProvider;
 import config.EmulationDeviceConfig;
 import io.appium.java_client.android.AndroidDriver;
@@ -43,11 +44,7 @@ public class EmulationMobileDriver implements WebDriverProvider {
         return new AndroidDriver(getAppiumServerUrl(), options);
     }
 
-
-
     private File getApp() {
-
-
         File app = new File(emulationConfig.appPath());
         if (!app.exists()) {
             try (InputStream in = new URL(emulationConfig.appUrl()).openStream()) {

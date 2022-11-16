@@ -18,8 +18,8 @@ import java.net.URL;
 import static org.apache.commons.io.FileUtils.copyInputStreamToFile;
 
 public class RealMobileDriver implements WebDriverProvider {
-
     static final RealMobileConfig config = ConfigFactory.create(RealMobileConfig.class, System.getProperties());
+
     public static URL getAppiumServerUrl() {
         try {
             return new URL(config.appiumURL());
@@ -45,7 +45,6 @@ public class RealMobileDriver implements WebDriverProvider {
     }
 
     private File getApp() {
-
         String appUrl = "https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk";
         String appPath = "src/test/resources/apps/app-alpha-universal-release.apk";
 

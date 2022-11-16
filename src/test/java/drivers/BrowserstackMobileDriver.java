@@ -3,7 +3,6 @@ package drivers;
 import com.codeborne.selenide.WebDriverProvider;
 import config.BrowserstackConfig;
 import config.CredConfig;
-import config.DeviceConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
@@ -15,7 +14,8 @@ import java.net.URL;
 
 public class BrowserstackMobileDriver implements WebDriverProvider {
     CredConfig config = ConfigFactory.create(CredConfig.class, System.getProperties());
-    static  final BrowserstackConfig browserstackConfig = ConfigFactory.create(BrowserstackConfig.class, System.getProperties());
+    static final BrowserstackConfig browserstackConfig = ConfigFactory.create(BrowserstackConfig.class, System.getProperties());
+
     @Override
     public WebDriver createDriver(Capabilities capabilities) {
         MutableCapabilities mutableCapabilities = new MutableCapabilities();
